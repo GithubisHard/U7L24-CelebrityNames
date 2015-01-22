@@ -11,6 +11,19 @@ public class CelebrityNames
 {
     public static final String FILE_NAME = "CelebrityData.txt";
     public static void main(String args[]) throws IOException
+    import java.io.*;
+import java.util.*;
+
+/**
+ * Write a description of class CelebrityNames here.
+ * 
+ * @author Roger Jaffe
+ * @version 2015-01-19
+ */
+public class CelebrityNames
+{
+    public static final String FILE_NAME = "CelebrityData.txt";
+    public static void main(String args[]) throws IOException
     { 
         Scanner sf = new Scanner(new File(FILE_NAME));
 
